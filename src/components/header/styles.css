@@ -1,0 +1,43 @@
+header#header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 25px 50px 25px;
+}
+
+header#header-container a img{
+    width: 30%;
+}
+
+
+nav#links li{
+    list-style: none;
+    font-size: 18px;
+    display: inline-block;
+    margin: 35px 35px;
+    border-bottom: 1.5px solid rgba(0, 255, 255, 0);
+}
+
+nav#links li:hover{
+    cursor: pointer;
+    border-bottom: 1.5px solid red;
+    transition: 0.3s;
+    
+}
+
+div#div-search img{
+    width: 40px;
+    margin-right: 25px;
+    border-radius: 50px;
+}
+
+#search-icon{
+    margin-right: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#notification-icon{
+    margin-right: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

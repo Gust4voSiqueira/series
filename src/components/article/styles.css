@@ -1,0 +1,77 @@
+article {
+    margin-left: 45px;
+    display: inline-block;
+    width: 40%;
+}
+
+article header#header-article span{
+    display: flex;
+}
+
+article header#header-article h1{
+    font-size: 3rem;
+}
+
+article main#main-article p{
+    margin-top: 30px;
+    font-size: 1rem;
+    width: 85%;
+    opacity: 60%;
+}
+article main#main-article a img:hover{
+    opacity: 100%;
+}
+article main#main-article a img{
+    position: relative;
+    display: inline;
+    width: 30%;
+    margin: 40px 10px 25px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 70%;
+}
+article footer#footer-article{
+    display: flex;
+    justify-content: space-between;
+
+    width: 85%;
+}
+article footer#footer-article div{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    padding: 12px 0px;
+    border-radius: 10px;
+}
+
+article footer#footer-article div.button-white{
+    font-weight: 500;
+    background: white;
+}
+article footer#footer-article div.button-white span{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       align-items: center;
+       color: black;
+}
+article footer#footer-article div.button-white:hover{
+    background: rgb(214, 214, 214);
+    cursor: pointer;
+}
+article footer#footer-article div.button-red{
+    font-weight: 500;
+    background: red;
+}
+article footer#footer-article div.button-red span{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+}
+article footer#footer-article div.button-red:hover{
+    background: rgb(206, 3, 3);
+    cursor: pointer;
+}

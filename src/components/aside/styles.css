@@ -1,0 +1,58 @@
+aside{
+   float: right;
+   width: 37%;
+}
+aside h1{
+    font-size: 2.7rem;
+    margin-bottom: 25px;
+ }
+
+ aside img{
+    display: inline;
+    width: 7%;
+ }
+
+ aside img.arrow{
+    display: block;
+ }
+
+ aside .icon-arrow{
+     display: inline-block;
+     margin-left: 15px;
+     opacity: 70%;
+ }
+
+ aside .icon-arrow:hover{
+    opacity: 100%;
+    cursor: pointer;
+ }
+ aside p#bio-actors{
+    opacity: 60%;
+    margin-top: 15px;
+}
+aside h2{
+    font-size: 1.5rem;
+}
+aside img{
+    margin: 0px 8px;
+     width: 12%;
+     border-radius: 10px;
+     border: 2px solid white;
+     opacity: 55%;
+}
+aside img:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+footer#footer-aside{
+   position: absolute;
+   left: 63%;
+   top: 80%;
+  
+}
+footer#footer-aside .media-icons{
+   display: inline-block;
+   margin-top: 25px;
+   margin-right: 20px;
+   font-size: 1.6rem;
+}
